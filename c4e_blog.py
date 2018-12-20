@@ -18,7 +18,7 @@ for post in post_collection.find(): #coi post_collection la 1 list
 #     "post":"Minh  di bao",
 # }
 
-# #5 add document into collection them vao collection
+# #5 add document into collection .them vao collection
 # post_collection.insert_one(new_document)
 
 #6 close collection

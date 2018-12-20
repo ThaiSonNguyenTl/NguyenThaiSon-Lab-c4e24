@@ -1,8 +1,12 @@
 from pymongo import MongoClient
+#1 connect database
 uri = "mongodb://admin:admin123@ds129454.mlab.com:29454/c4e_24"
 client = MongoClient(uri)
+#2 select database
 db = client.get_database()
+#3 select collection
 post_collection = db["posts"]
+#4 creat document
 account1 = {
     "username":"sonnguyen",
     "email":"thaisonnguyen@gmail.com",

@@ -7,7 +7,7 @@ client = MongoClient(uri)
 db = client.get_database()
 #3 select collection
 customer_colletion = db["customers"]
-# for customer in customer_colletion.find():
+
 amount_event = customer_colletion.count_documents({"ref":"events"})
 print(amount_event)
 amount_wom = customer_colletion.count_documents({"ref":"wom"})

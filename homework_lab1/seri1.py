@@ -7,7 +7,7 @@ html_content = '''
 <p>h&ocirc;m nay em bị ốm , anh cho em nghỉ l&agrave;m .em phải đi gặp b&aacute;c sĩ&nbsp;</p>
 
 '''
-mail = GMail("sonnguyentl1810@gmail.com","18101998son")
+mail = GMail("thaisonnguyentl@gmail.com","18101998")
 msg = Message("Nghi om",to ="doanhtuan7198@gmail.com",html=html_content)
 if time_now.hour > 7:
     mail.send(msg)
